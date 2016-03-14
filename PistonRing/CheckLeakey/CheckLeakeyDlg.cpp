@@ -92,6 +92,9 @@ void CCheckLeakeyDlg::OnClose()
 {
 	// TODO:  在此添加消息处理程序代码和/或调用默认值
 	int n = MessageBox(L"对话框将要关闭", L"关闭对话框");
-
+	if (n == 1)
+	{
+		
+	}
 	CDialogEx::OnClose();
 }
